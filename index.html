@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Text Converter</title>
+  </head>
+  <body>
+    <div class="dropdown">
+      <select id="converter">
+        <option value="replace_vowels">Replace Vowels</option>
+        <option value="remove_vowels">Remove Vowels</option>
+        <option value="owo_text">OWO Text</option>
+        <option value="mocking">mOcKiNg</option>
+        <option value="waluigi">WAHluigi</option>
+        <option value="reverse_cap">Reverse Capitalization</option>
+        <option value="fix_cap">Fix Capitalization</option>
+        <option value="britishify">To British</option>
+      </select>
+    </div>
+    <div>
+      <button onclick="calc()">Convert</button>
+    </div>
+    <div>
+      <textarea id="result" style="width:50vw;height:50vh;"></textarea>
+    </div>
+    <div>
+      <button onclick="copy()">Copy</button>
+    </div>
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+</html>
